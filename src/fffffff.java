@@ -1,0 +1,2 @@
+public class fffffff {
+}
