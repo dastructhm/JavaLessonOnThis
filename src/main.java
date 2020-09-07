@@ -3,9 +3,9 @@ public class main {
         Age myAge = new Age();
         System.out.println(myAge.CalculateAge(2020));
         System.out.println("Calling member variable: " + myAge.CalculateAge2(2020));
+
+        LessonOnSuper test = new LessonOnSuper();
+        System.out.println(test.print(333));
     }
-
-
-
 }
 

@@ -5,7 +5,7 @@ class Age {
         return dateOfBirth;
     }
 
-    // using this, 1982 called
+    // myAge.dateOfBirth
     public int CalculateAge2(int dateOfBirth){
         return this.dateOfBirth;
     }
