@@ -9,7 +9,6 @@ class Age {
     public int CalculateAge2(int dateOfBirth){
         return this.dateOfBirth;
     }
-
-    public static class eee {
-    }
 }
+
+
