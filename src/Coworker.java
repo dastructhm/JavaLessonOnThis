@@ -6,15 +6,15 @@ class Coworker {
     }
 
     public Coworker(int YearOfBirth){
-        System.out.println("the constructor says you are " + (2020 - YearOfBirth) + " years old.");
+        System.out.print("the constructor says you are " + (2020 - YearOfBirth) + " years old.");
 
-        // System.out.println("this constructor says you are " + (2020 - this.YearOfBirth) + " years old.");
+        System.out.println(" But using this keyword, you are " + (2020 - this.YearOfBirth) + " years old.");
     }
 
     public void CalculateNominalAge(int YearOfBirth){
-        System.out.println("your nominal age is " + (2020 - YearOfBirth + 1));
+        System.out.print("your nominal age is " + (2020 - YearOfBirth + 1) + " years old.");
 
-        // System.out.println("your nominal age is " + (2020 - this.YearOfBirth + 1));
+        System.out.println(" But using this keyword, you are " + (2020 - this.YearOfBirth) + " years old.");
     }
 }
 
