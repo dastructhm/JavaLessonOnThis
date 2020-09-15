@@ -18,9 +18,14 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.print("Tom, ");
+        // Calling constructor Coworker
         Coworker coworkerTom = new Coworker(1980);
+
+        // Calling constructor Coworker
         System.out.print("Jim, ");
         Coworker CoworkerJim = new Coworker(1990);
+
+        // Calling constructor Coworker
         System.out.print("Amy, ");
         Coworker CoworkerAmy = new Coworker(2000);
 
