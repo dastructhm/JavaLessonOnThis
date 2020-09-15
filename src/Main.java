@@ -3,7 +3,6 @@
 概念定义：- To represent the current instance of the class in which it appears
         - To access class variables and methods
 实际应用：- The most common reason for using the this keyword is because a field is shadowed by a method or constructor parameter.
-        - From within a constructor, you can also use the this keyword to call another constructor in the same class. Doing so is called an explicit constructor invocation.
 调用API：N/A
 另请参阅：- https://docs.oracle.com/javase/tutorial/java/javaOO/thiskey.html
         - https://en.wikipedia.org/wiki/This_(computer_programming)
@@ -17,7 +16,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.print("Tom, ");
+        System.out.print("Bob, ");
         // Calling constructor Coworker
         Coworker coworkerTom = new Coworker(1980);
 
