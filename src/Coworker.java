@@ -11,7 +11,7 @@ class Coworker {
         // To represent the current instance of the class in which it appears
         // To access class variables and methods
         // 不使用参数或局部变量
-        System.out.println(" Using This keyword, you are " + (2020 - this.YearOfBirth) + " years old.");
+        System.out.println(" Using this keyword, you are " + (2020 - this.YearOfBirth) + " years old.");
     }
 
     // Field YearOfBirth is shadowed by a method parameter
@@ -22,7 +22,7 @@ class Coworker {
         // To represent the current instance of the class in which it appears
         // To access class variables and methods
         // 不使用参数或局部变量
-        System.out.println(" Using This keyword, you are " + (2020 - this.YearOfBirth) + " years old.");
+        System.out.println(" Using this keyword, you are " + (2020 - this.YearOfBirth) + " years old.");
     }
 }
 
