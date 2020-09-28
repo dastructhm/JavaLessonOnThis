@@ -2,7 +2,8 @@
 学习目标：this关键字
 概念定义：- To represent the current instance of the class in which it appears
         - To access class variables and methods
-实际应用：- The most common reason for using the this keyword is because a field is shadowed by a method or constructor parameter.
+实际应用：- The most common reason for using the this keyword is because a field
+          is shadowed by a method or constructor parameter.
 调用API：N/A
 另请参阅：- https://docs.oracle.com/javase/tutorial/java/javaOO/thiskey.html
         - https://en.wikipedia.org/wiki/This_(computer_programming)
@@ -20,11 +21,9 @@ public class Main {
         // Calling constructor Coworker
         Coworker coworkerTom = new Coworker(1980);
 
-        // Calling constructor Coworker
         System.out.print("Jim, ");
         Coworker CoworkerJim = new Coworker(1990);
 
-        // Calling constructor Coworker
         System.out.print("Amy, ");
         Coworker CoworkerAmy = new Coworker(2000);
 
@@ -32,10 +31,10 @@ public class Main {
         coworkerTom.CalculateNominalAge(1980);
 
         System.out.print("Jim, ");
-        coworkerTom.CalculateNominalAge(1980);
+        CoworkerJim.CalculateNominalAge(1980);
 
         System.out.print("Amy, ");
-        coworkerTom.CalculateNominalAge(1980);
+        CoworkerAmy.CalculateNominalAge(1980);
     }
 }
 
